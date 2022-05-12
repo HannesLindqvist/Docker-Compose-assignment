@@ -2,7 +2,7 @@
 
 1. To use this API clone the repo to your local machine.
 
-2. To start the application type in: docker compose up
+2. To start the application from your termnial type: docker compose up 
 
 3. To insert data use the Curl command. 
 Example: curl -X POST -H "Content-Type: application/json" -d "{\"name\" : \”Hans\”, \"last_name\" : \"Smith\"}" localhost:5000/persons
@@ -11,4 +11,4 @@ Example: curl -X POST -H "Content-Type: application/json" -d "{\"name\" : \”Ha
 Example Curl: curl -X GET -H "Content-Type: application/json" localhost:5000/persons
 Localhost: Localhost:5000/persons
 
-To quit the app type in: docker compose down
+To quit the app from the terminal type in: docker compose down
